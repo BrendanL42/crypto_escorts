@@ -1,0 +1,32 @@
+.tableRates {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.tableRates th {
+  text-align: center;
+  padding: 8px 8px 15px 8px !important;
+  letter-spacing: 2px;
+  font-weight: 300;
+  color: rgb(211, 211, 211);
+
+}
+.tableRates tr:not(:first-child) {
+  text-align: center;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.623);
+  padding: 0 0 15px 8px !important;
+  font-weight: 200;
+  line-height: 1.5;
+  height: 3em;
+  cursor: pointer;
+}
+
+
+.tableRates tr:hover {
+  color: rgb(199, 199, 199);
+}
+

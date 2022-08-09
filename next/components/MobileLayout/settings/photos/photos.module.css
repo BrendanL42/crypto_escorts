@@ -1,0 +1,44 @@
+.plaHol {
+    height: 140px;
+    width: 140px;
+    background-color: RGB(255, 255, 255, 0.5);
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+  }
+
+  .photoWrapper {
+    margin: 1.6em 0 2.7em 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 190px;
+    height: auto;
+  }
+
+
+.box {
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+  }
+
+  .thumbnail {
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 200;
+    position: absolute;
+    bottom: -28px;
+    left: 30px;
+  }

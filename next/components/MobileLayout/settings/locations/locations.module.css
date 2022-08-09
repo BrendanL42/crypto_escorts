@@ -1,0 +1,35 @@
+.modelCircles {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(auto, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  margin: 2em auto -1em auto;
+}
+
+.modelCircle {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 50%;
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background: rgb(230, 230, 230);
+  margin: -1em auto 1em auto;
+  cursor: pointer;
+}
+
+.modelCircleSelected {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+
+  font-size: 19px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background: rgb(237, 108, 2);
+  margin: -1em auto 1em auto;
+  cursor: pointer;
+}
